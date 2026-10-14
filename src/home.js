@@ -22,5 +22,5 @@ export function home() {
   const p = document.createElement('p');
   content.appendChild(p);
   p.textContent =
-    'That Little Italian Joint has the best Italian food one could ever find. Book your party with us today and explore a wide array of delcious entrees for any occasion.';
+    'That Little Italian Joint has the best Italian food one could ever find. Book your party with us today and explore a wide array of delicious entrees for any occasion.';
 }
