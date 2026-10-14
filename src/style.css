@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 1.2rem;
+}
+
+nav {
+  padding: 1rem;
+}
+
+#content {
+  text-align: center;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: space-between;
+  gap: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+#content > * {
+  border: 3px solid green;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.image {
+  background-repeat: no-repeat;
+  margin: auto;
+  object-fit: cover;
+  background-color: rgb(232, 244, 17);
+}
+
+body {
+  background-color: #000;
+}
+
+p {
+  max-width: 54ch;
+  margin: auto;
+  background-color: rgb(232, 244, 17);
+}
+
+h1 {
+  background-color: rgb(155, 241, 155);
+  width: 80%;
+  margin: auto;
+}
+
+ul {
+  width: 80%;
+  background-color: rgb(232, 244, 17);
+  margin: auto;
+}
+
+li {
+  list-style: none;
+  padding: 0.5rem;
+}
+
+.contactMethods {
+  background-color: rgb(232, 244, 17);
+  width: 80%;
+  margin: auto;
+}
